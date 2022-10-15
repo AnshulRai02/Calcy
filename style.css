@@ -3,7 +3,7 @@
 }
 
 body{
-    background-color: #23283b;
+    background-image:url('bg.jpg');
     min-height: 90vh;
     display: flex;
     justify-content: center;
@@ -80,6 +80,3 @@ body{
         align-items: flex-start;
     }
 }
-
-
-  
