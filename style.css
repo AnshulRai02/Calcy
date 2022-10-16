@@ -11,7 +11,7 @@ body{
 }
 
 .container{
-    background-color: #32a852;
+    background-color: rgb(55, 171, 55);
     max-width: 300px;
     height: auto;
     display: flex;
@@ -31,20 +31,20 @@ body{
     grid-template-rows: repeat(2,minmax(40px,auto));
     word-wrap: break-word;
     padding-bottom: 20px;
-    border-bottom: 1px rgba(128,128,128,0.116) solid;
+    border-bottom: 1px rgba(33, 23, 13, 0.639) solid;
 }
 #Display-area .currentInput{
     /*display:flex;*/
     text-align: right;
     height: 8vh;
-    color: white;
+    color: rgb(238, 243, 247);
     font-size: xx-large;
     line-height: 2;
     word-wrap: break-word;
 }
 #Display-area .answerScreen{
     text-align: right;
-    color: rgb(0,0,0);
+    color: rgb(26, 20, 20);
     height: 7px;
     line-height: 3;
     font-size: larger;
@@ -59,20 +59,20 @@ body{
     outline: none;
     border: none;
     border-radius: 122px;
-    background-color: #232534;
-    color: #fff;
+    background-color:white;
+    color: black;
     font-size: x-large;
 }
 .keypad-btns .fun_btn{
-    color: #000;
-    background: #00E6F6;
+    color: rgb(205, 100, 100);
+    background: rgb(23, 209, 223);
     font-weight: bold;
 }
 .num_btn:hover{
-    background-color: #282a3a;
+    background-color: wheat;
 }
 .fun_btn:hover{
-    background-color: #00c6d4;
+    background-color: rgb(250, 240, 240);
 }
 @media only screen and (max-width:600px){
     body{
