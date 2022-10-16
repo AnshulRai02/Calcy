@@ -9,9 +9,13 @@ body{
     justify-content: center;
     align-items: center;
 }
+#Heading{
+   margin-top: -600px;
+ 
 
+}
 .container{
-    background-color: #32a852;
+    background-color: #ffffff;
     max-width: 300px;
     height: auto;
     display: flex;
@@ -31,16 +35,17 @@ body{
     grid-template-rows: repeat(2,minmax(40px,auto));
     word-wrap: break-word;
     padding-bottom: 20px;
-    border-bottom: 1px rgba(128,128,128,0.116) solid;
+    border-bottom: 3px rgba(24, 16, 16, 0.877) solid;
 }
 #Display-area .currentInput{
     /*display:flex;*/
     text-align: right;
     height: 8vh;
-    color: white;
+    color: #221414;
     font-size: xx-large;
     line-height: 2;
     word-wrap: break-word;
+    border: #000;
 }
 #Display-area .answerScreen{
     text-align: right;
